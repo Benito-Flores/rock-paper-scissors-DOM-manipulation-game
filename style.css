@@ -1,0 +1,80 @@
+* {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* outline: 2px solid red; */
+}
+
+.page-title {
+  margin: 25px;
+}
+
+.page-sub-title {
+  margin: 10px;
+}
+
+.txt-container {
+  align-content: center;
+  height: 50px;
+  max-width: 400px;
+  margin-inline: auto;
+  margin-block: 15px;
+}
+
+.score-container {
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border: 2px solid white;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+.btn-container {
+  margin: 10px;
+}
+
+.play-btn {
+  border: 2px solid white;
+  margin-inline: 5px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  transition: .2s;
+}
+
+.play-btn:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.rock-btn,
+.paper-btn,
+.scissor-btn,
+.restart-btn {
+  border: 2px solid white;
+  margin-inline: 5px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  transition: .2s;
+  display: none;
+}
+
+.rock-btn:hover,
+.paper-btn:hover,
+.scissor-btn:hover,
+.restart-btn:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.unhide {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
