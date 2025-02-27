@@ -31,7 +31,7 @@ function numToOption(randomNum){
 // Starts Rock, Paper, Scissors Game and Adds Choices
 playBtn.addEventListener("click", () => {
 
-  txtContainer.textContent = "Rock, Paper, or Scissors? (Best Out of Three)";
+  txtContainer.textContent = "Rock, Paper, or Scissors? (Best Out of Five)";
   playBtn.classList.add("hide");
   rockBtn.classList.add("unhide");
   paperBtn.classList.add("unhide");
@@ -116,7 +116,7 @@ function checkWinner() {
 
 restartBtn.addEventListener("click", () => {
 
-  txtContainer.textContent = "Rock, Paper, or Scissors? (Best Out of Three)";
+  txtContainer.textContent = "Rock, Paper, or Scissors? (Best Out of Five)";
   playerScore = 0;
   computerScore = 0;
   scores.textContent = `${playerScore} : ${computerScore}`;
